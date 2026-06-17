@@ -1,306 +1,311 @@
-// Grandeur SSCBS Website Data Source
+// Grandeur SSCBS Website Data Source - Sepia Light Theme Copy
 const GrandeurData = {
+  ticker: [
+    { text: "Echelon: The Simulation Challenge - Register Now on Unstop!", url: "https://unstop.com/competitions/echelon-the-simulation-challenge-shaheed-sukhdev-college-of-business-studies-sscbs-du-delhi-1670580" },
+    { text: "Industry Primer 2026 Out Now!", url: "/industry-primer-2026.pdf" }
+  ],
+  
+  collabs: [
+    { name: "Krafton", label: "Gaming Industry Partner" },
+    { name: "Mamaearth", label: "D2C FMCG Partner" },
+    { name: "KRG", label: "Business Consulting Partner" },
+    { name: "Skilled Sapiens", label: "Mentorship Partner" },
+    { name: "Upsurge", label: "Fintech Club Partner" },
+    { name: "Atmoz", label: "Sustainability Partner" },
+    { name: "Honasa", label: "Consumer Brands Partner" },
+    { name: "TheV", label: "Corporate Strategy Partner" }
+  ],
+
   publications: [
     {
-      id: "pub-casebook-2025",
-      title: "SSCBS Casebook 2025-26",
-      subtitle: "3rd Edition • Placement Preparation",
+      id: "pub-primer-2026",
+      title: "Industry Primer 2026",
+      subtitle: "Consulting Prep Guide • Out Now",
       category: "casebooks",
-      date: "October 2025",
-      description: "A comprehensive casebook compiled by Grandeur containing real consulting interview transcripts, frameworks, guesstimates, and industry primers. Tailored for placements at top-tier firms like McKinsey, BCG, and Bain.",
-      image: "assets/pub_casebook_2025.jpg",
-      tags: ["Consulting", "Frameworks", "Case Interviews"],
+      date: "January 2026",
+      description: "Our latest industry primer designed to help students prepare for consulting placements. Covers key business frameworks, sizing benchmarks, and sector summaries.",
+      downloadUrl: "/industry-primer-2026.pdf",
+      readTime: "98 pages",
+      tags: ["Consulting", "Primers", "Placement Prep"],
       highlights: [
-        "40+ detailed case transcripts from actual MBB interviews",
-        "Structuring frameworks (Market Entry, Profitability, GTM, M&A)",
-        "15+ guesstimate walkthroughs with structured approaches",
-        "Industry primers covering 8 key sectors"
-      ],
-      downloadUrl: "#",
-      readTime: "120 pages"
+        "10+ standard business frameworks simplified",
+        "Market sizing cheat sheets and Delhi-NCR sizing metrics",
+        "Key sector analysis (E-commerce, Automobile, Energy, FMCG)",
+        "Mock case transcripts from actual McKinsey & Bain interviews"
+      ]
     },
     {
-      id: "pub-casebook-2024",
-      title: "SSCBS Casebook 2024-25",
-      subtitle: "2nd Edition • Case Prep Guide",
-      category: "casebooks",
-      date: "September 2024",
-      description: "The second iteration of the highly acclaimed consulting interview workbook, focusing on modern product cases, pricing strategies, and system design questions.",
-      image: "assets/pub_casebook_2024.jpg",
-      tags: ["Case Prep", "Interview Prep", "MBB Guides"],
-      highlights: [
-        "30+ interactive mock cases",
-        "Special focus on digital consulting and tech product cases",
-        "Comprehensive guide on structured thinking and MECE principles"
-      ],
-      downloadUrl: "#",
-      readTime: "95 pages"
-    },
-    {
-      id: "pub-sector-ai-2026",
-      title: "Artificial Intelligence & Automation Primer",
-      subtitle: "Sector Report 2026",
-      category: "sector-reports",
-      date: "March 2026",
-      description: "An in-depth analysis of how Generative AI and automation are transforming traditional consulting and corporate strategies. Focuses on tech adoption, operational efficiency, and market disruption.",
-      image: "assets/pub_sector_ai.jpg",
-      tags: ["Artificial Intelligence", "Tech Strategy", "Automation"],
-      highlights: [
-        "Market size projections and growth drivers (2026-2030)",
-        "Impact assessment of GenAI on SaaS, IT, and Service industries",
-        "Consulting frameworks for AI implementation readiness"
-      ],
-      downloadUrl: "#",
-      readTime: "45 pages"
-    },
-    {
-      id: "pub-sector-qcomm-2025",
-      title: "Quick Commerce Industry Analysis",
-      subtitle: "Sector Report 2025",
+      id: "pub-gaming-2025",
+      title: "Gaming Industry Analysis",
+      subtitle: "Sector Report",
       category: "sector-reports",
       date: "November 2025",
-      description: "Analyzing the rapid expansion of 10-minute delivery services in urban India. Evaluates dark store unit economics, delivery algorithms, FMCG brand partnerships, and sustainability models.",
-      image: "assets/pub_sector_qcomm.jpg",
-      tags: ["Logistics", "Unit Economics", "E-Commerce"],
-      highlights: [
-        "Detailed comparison of Zepto, Blinkit, and Instamart models",
-        "Analysis of dark store density and micro-fulfillment center logistics",
-        "Profitability roadmap and margin analysis of FMCG private labels"
-      ],
+      description: "A comprehensive analysis of the gaming industry covering revenue models, growth trajectory, current industry landscape, key investors, and the impact of COVID-19 on the sector.",
       downloadUrl: "#",
-      readTime: "38 pages"
+      readTime: "42 pages",
+      tags: ["Gaming", "Sector Report", "Unit Economics"],
+      highlights: [
+        "In-app purchase vs. Ad-supported monetization models",
+        "Market expansion patterns in South Asia and India",
+        "Impact assessment of standard regulatory taxation guidelines"
+      ]
     },
     {
-      id: "pub-sector-fintech-2025",
-      title: "Fintech Landscape in India",
-      subtitle: "Sector Report 2025",
+      id: "pub-meta-2025",
+      title: "Meta - Company Analysis",
+      subtitle: "Corporate Report",
+      category: "sector-reports",
+      date: "September 2025",
+      description: "An in-depth report on one of the world's biggest tech giants, analyzing its revenue and business models, and exploring what the future might look like for Meta and its many subsidiaries.",
+      downloadUrl: "#",
+      readTime: "35 pages",
+      tags: ["Tech", "Corporate Analysis", "Metaverse"],
+      highlights: [
+        "Monetization audit of WhatsApp Business APIs",
+        "Ad spend shifts and ROI benchmarks (2024-2025)",
+        "Review of Reality Labs' R&D investment vs. revenue"
+      ]
+    },
+    {
+      id: "pub-healthcare-ai",
+      title: "AI in Healthcare",
+      subtitle: "Healthcare Technology Report",
       category: "sector-reports",
       date: "June 2025",
-      description: "A detailed research paper examining UPI scaling, digital lending, neo-banking regulatory changes, and the rise of wealth-tech applications among GenZ users.",
-      image: "assets/pub_sector_fintech.jpg",
-      tags: ["Finance", "UPI", "Regulations"],
-      highlights: [
-        "Regulatory shifts in digital lending and credit card issuance",
-        "Neo-banking adoption rates and trust factors in tier-2/3 cities",
-        "Analysis of wealth-tech monetization strategies"
-      ],
+      description: "A detailed report on how AI is entering different fields of healthcare, with special mention of how AI is regulated, monitored, and operated in the medical sector.",
       downloadUrl: "#",
-      readTime: "52 pages"
-    },
-    {
-      id: "pub-newsletter-dec-2025",
-      title: "Market Pulse: GenAI in Consulting",
-      subtitle: "Grandeur Monthly • Dec 2025",
-      category: "newsletters",
-      date: "December 2025",
-      description: "Grandeur's monthly wrap-up summarizing key corporate acquisitions, macroeconomic trends, and a breakdown of a complex guesstimate on the Indian electric vehicle market.",
-      image: "assets/pub_newsletter_dec2025.jpg",
-      tags: ["Macroeconomics", "Market Watch", "EV Guesstimate"],
+      readTime: "48 pages",
+      tags: ["AI", "Healthcare", "Regulations"],
       highlights: [
-        "Macroeconomic analysis: Interest rate trends and inflation impact",
-        "Weekly Guesstimate: Number of EV charging stations in Delhi NCR",
-        "Consulting Spotlight: McKinsey's acquisition of tech boutique firms"
-      ],
-      downloadUrl: "#",
-      readTime: "12 pages"
-    },
-    {
-      id: "pub-guesstimate-2026",
-      title: "Guesstimate Primer & Practice Book",
-      subtitle: "Special Edition 2026",
-      category: "newsletters",
-      date: "January 2026",
-      description: "A quick-reference guide containing standard formulas, population metrics, sizing benchmarks, and structured approaches to tackle any guesstimate question in under 10 minutes.",
-      image: "assets/pub_guesstimate.jpg",
-      tags: ["Guesstimates", "Market Sizing", "Estimation"],
-      highlights: [
-        "Sanity check benchmarks (demographics, income groups, area)",
-        "10 classic guesstimates solved step-by-step using supply & demand sides",
-        "Mental math hacks for quick estimation"
-      ],
-      downloadUrl: "#",
-      readTime: "24 pages"
+        "Analysis of diagnostic imaging algorithms and accuracy limits",
+        "Regulatory standards for automated patient data management",
+        "Adoption barriers in hospital networks and insurance integration"
+      ]
     }
   ],
 
   projects: [
     {
-      id: "proj-agritech-gtm",
-      title: "Market Entry & GTM Strategy for Agritech Startup",
-      client: "RuralGrow Solutions",
-      domain: "Agritech / Growth Strategy",
+      id: "proj-krafton",
+      title: "BGMI Esports Franchise League Strategy",
+      client: "Krafton Inc.",
+      domain: "Consulting Engagement",
       status: "Completed",
-      duration: "8 Weeks (Paid)",
-      summary: "Developed a comprehensive Go-To-Market (GTM) strategy and dynamic pricing model to launch a B2B SaaS platform connecting smallholder farmers with wholesale buyers in Haryana and Punjab.",
-      problem: "RuralGrow wanted to expand its platform from Maharashtra to Northern India but faced challenges in understanding local commission agent (arthiya) networks, logistics costs, and farmers' willingness to pay.",
+      duration: "8 Weeks",
+      summary: "Consulting project on BGMI Esports Franchise League, decoding the project brief and preparing strategic recommendations for team franchise models and viewer retention metrics.",
+      problem: "Krafton required a sustainable franchise league structure for Indian esports teams that balanced team franchise costs, media broadcasting rights, sponsor interests, and organic viewership.",
       approach: [
-        "Conducted primary research with 150+ farmers and 30 wholesale traders in mandis.",
-        "Analyzed regional supply chains, crop seasonality, and credit cycles.",
-        "Designed a tiered subscription model for premium logistics and quality-testing features.",
-        "Formulated a GTM roadmap leveraging local farmer cooperatives (FPOs)."
+        "Conducted benchmarking studies against IPL and global League of Legends leagues.",
+        "Modeled revenue-sharing structures (ticketing, merchandising, broadcasting).",
+        "Analyzed viewership behaviors across YouTube and custom gaming platforms."
       ],
       results: [
-        "Designed a pricing model approved by the client, yielding a projected 22% increase in average revenue per user (ARPU).",
-        "Formulated a pilot launch strategy that successfully onboarded 450+ farmers in the first month.",
-        "Identified key channel partners, reducing customer acquisition costs (CAC) by 18%."
+        "Proposed a tiered franchise buy-in model that secured client alignment.",
+        "Formulated a media rights distribution framework aimed at increasing regional viewership.",
+        "Structured viewer engagement recommendations adopted for subsequent esports seasons."
       ],
-      tags: ["Market Entry", "Pricing Strategy", "Primary Research"]
+      tags: ["Esports", "Strategy", "Gaming"]
     },
     {
-      id: "proj-fincorp-valuation",
-      title: "Competitor Benchmarking & Revenue Optimization",
-      client: "FinCorp Wealth Management",
-      domain: "Financial Advisory / Fintech",
+      id: "proj-mamaearth",
+      title: "Men's Fragrance Brand GTM Strategy",
+      client: "Honasa Consumer (Mamaearth)",
+      domain: "Strategic Research",
       status: "Completed",
-      duration: "10 Weeks (Paid)",
-      summary: "Performed thorough financial modeling, valuation sensitivity analysis, and product benchmarking for a leading wealth management platform to enhance its market share among young retail investors.",
-      problem: "FinCorp faced intense competition from zero-brokerage apps. They needed to identify product feature gaps, optimize their advisory fee structure, and assess the feasibility of introducing fractional investing.",
+      duration: "10 Weeks",
+      summary: "Secondary research and strategic briefing for the men's fragrance brand Fikn, analyzing viral Indian brand strategies, pricing elasticity, and target consumer demographics.",
+      problem: "Honasa sought to establish Fikn in a highly fragmented men's grooming market, requiring insight into D2C acquisition channels, scent preferences, and price benchmarks.",
       approach: [
-        "Created a financial projection model for the next 5 years with sensitivity scenarios.",
-        "Conducted a feature-by-feature benchmark analysis against 6 major domestic and international competitors.",
-        "Ran focus groups and surveys to measure interest and price elasticity for fractional share ownership.",
-        "Built cost-benefit models for regulatory compliance and API integrations."
+        "Performed intensive secondary research on 15 domestic men's grooming brands.",
+        "Conducted pricing sensitivity audits for mid-tier luxury fragrance brackets.",
+        "Designed marketing funnel structures targeting tier-1 and tier-2 young male demographics."
       ],
       results: [
-        "Recommended a hybrid pricing structure (fixed + percentage of AUM) that was adopted in their premium tier.",
-        "Presented a product roadmap for fractional investing, identifying potential 30% user growth.",
-        "Identified leakages in customer onboarding, suggesting UI/UX fixes to reduce drop-off by 14%."
+        "Presented a product pricing recommendation matching target consumer margins.",
+        "Structured a micro-influencer GTM blueprint utilized during initial marketing waves.",
+        "Identified packaging optimization features preferred by GenZ customers."
       ],
-      tags: ["Financial Modeling", "Competitor Analysis", "Valuation"]
+      tags: ["D2C", "Market Entry", "FMCG"]
     },
     {
-      id: "proj-qcomm-logistics",
-      title: "Operations & Dark Store Location Optimization",
-      client: "Q-Deliver Logistics",
-      domain: "Operations / E-Commerce",
+      id: "proj-upsurge",
+      title: "Upsurge Student Club Model Development",
+      client: "Upsurge",
+      domain: "Growth Strategy",
       status: "Completed",
-      duration: "6 Weeks (Pro-Bono)",
-      summary: "Leveraged spatial analysis and inventory management frameworks to optimize dark store layouts and delivery dispatch operations, lowering order fulfillment times by 90 seconds.",
-      problem: "Q-Deliver was failing to meet its 10-minute delivery promise in South Delhi due to congestion, suboptimal dark store spatial organization, and driver dispatch delays.",
+      duration: "6 Weeks",
+      summary: "Developing the Upsurge Student Club Model along with identifying and analysing key multinational companies for potential financial education campaigns.",
+      problem: "Upsurge, an online financial literacy platform, wanted to scale its student acquisition through a nationwide ambassador and club network, requiring a standardized operational playbook.",
       approach: [
-        "Mapped high-density order zones against existing dark store catchments.",
-        "Applied heat maps to redesign dark store shelving layouts (putting high-frequency items near packing bays).",
-        "Analyzed order dispatch times and suggested batching rules for riders.",
-        "Formulated a prediction framework for micro-fulfillment inventory stocking based on historical sales."
+        "Designed the organizational structure and incentive model for Upsurge Student Clubs.",
+        "Created content templates and event structures for college chapters.",
+        "Mapped 40+ multinational companies as potential CSR partners for literacy funding."
       ],
       results: [
-        "Successfully reduced average in-store picking and packing time from 3 minutes to 1.8 minutes.",
-        "Improved the percentage of deliveries under 10 minutes from 72% to 89% in the pilot zone.",
-        "Optimized inventory holding, reducing write-offs of perishables by 12%."
+        "Delivered a detailed Student Club Playbook adopted by the client for national rollouts.",
+        "Designed a reward matrix that improved student sign-ups during pilots.",
+        "Onboarded initial corporate partners for sponsoring financial literacy drives."
       ],
-      tags: ["Operations", "Supply Chain", "Spatial Optimization"]
+      tags: ["Growth", "Business Model", "Fintech"]
     },
     {
-      id: "proj-glowskin-d2c",
-      title: "Customer Acquisition & Digital Brand Strategy",
-      client: "GlowSkin Cosmetics",
-      domain: "Marketing / D2C",
+      id: "proj-skilled-sapiens",
+      title: "Sales Funnel & Customer Journey Refinement",
+      client: "Skilled Sapiens",
+      domain: "Business Development",
       status: "Completed",
-      duration: "8 Weeks (Paid)",
-      summary: "Designed a digital brand strategy and marketing funnel optimization for an organic skincare brand, enhancing digital ROI and lowering Customer Acquisition Cost (CAC).",
-      problem: "GlowSkin was struggling with skyrocketing Facebook/Instagram ad costs and low retention rates, leading to a high CAC to Lifetime Value (LTV) ratio.",
+      duration: "6 Weeks",
+      summary: "Elevating the company's sales performance by refining and optimizing the overall customer experience and onboarding journey.",
+      problem: "Skilled Sapiens experienced high drop-off rates at the middle of their sales funnel, requiring an audit of sales scripts, follow-ups, and student advisory touchpoints.",
       approach: [
-        "Analyzed website analytics and customer journey touchpoints to identify conversion funnel drop-offs.",
-        "Designed a customer segmentation model (based on buying behavior, age, and concerns).",
-        "Developed a structured influencer collaboration framework (tiering nano, micro, and macro creators).",
-        "Designed email and WhatsApp marketing sequences for post-purchase engagement."
+        "Audited 100+ recorded sales calls to identify typical customer friction points.",
+        "Redesigned the sales consultation script to focus on career-outcome mapping.",
+        "Formulated automated CRM post-call nurturing sequences."
       ],
       results: [
-        "Achieved a 26% reduction in Customer Acquisition Cost (CAC) through micro-influencer targeting.",
-        "Increased website conversion rate from 1.5% to 2.4% via cart recovery automation.",
-        "Boosted customer repeat-purchase rate by 15% within a 60-day period."
+        "Achieved a 15% increase in conversion from trial session to paid enrollment.",
+        "Shortened the overall customer onboarding cycle from 10 days to 6 days.",
+        "Improved post-purchase satisfaction rating by 22%."
       ],
-      tags: ["Brand Strategy", "Marketing Funnel", "CAC Optimization"]
+      tags: ["Sales Operations", "Customer Experience"]
+    },
+    {
+      id: "proj-contrarian",
+      title: "HR Tech Industry Exhaustive Research",
+      client: "Contrarian Ventures LLP",
+      domain: "Venture Research",
+      status: "Completed",
+      duration: "8 Weeks",
+      summary: "Leading exhaustive research endeavors in the HR tech industry, diving deep to extract valuable insights for investment planning.",
+      problem: "The VC firm required a comprehensive map of the Indian HR Tech landscape (recruitment platforms, payroll systems, LMS, and gig portals) to guide investment rounds.",
+      approach: [
+        "Mapped 150+ Indian and global HR Tech startups categorizing by funding stage and product offering.",
+        "Analyzed corporate HR adoption metrics in post-pandemic work models.",
+        "Drafted a detailed industry thesis identifying high-growth segments."
+      ],
+      results: [
+        "Delivered a 60-page research deck used by the investment committee.",
+        "Identified 3 high-potential startups for initial outreach.",
+        "Created valuation benchmarks for Series A and B stages in the HR Tech sector."
+      ],
+      tags: ["Venture Capital", "HR Tech", "Market Research"]
+    },
+    {
+      id: "proj-yi-yuva",
+      title: "Skill Gap Analysis and Training Strategy",
+      client: "CII Yi Yuva SSCBS",
+      domain: "Social Strategy",
+      status: "Completed",
+      duration: "10 Weeks",
+      summary: "Analysis of the skill gap in India and building strategies for training and development to overcome the gap in undergraduate institutions.",
+      problem: "An analysis was needed to assess the mismatch between academic business curricula and corporate hiring demands, specifically within undergraduate commerce circles.",
+      approach: [
+        "Surveyed 400+ students and conducted interviews with HR heads at 20 major firms.",
+        "Identified key tool gaps (Advanced Excel, SQL, data interpretation, business writing).",
+        "Formulated a bridge-training curriculum that could be implemented via student networks."
+      ],
+      results: [
+        "Developed a standardized training framework endorsed by faculty advisors.",
+        "Piloted a guesstimate and excel camp that served 250+ students.",
+        "Documented a skills gap report presented to the college governing body."
+      ],
+      tags: ["Social Impact", "Policy", "Skill Training"]
     }
   ],
 
   events: [
     {
-      id: "event-invicta-2026",
-      title: "Invicta 2026",
+      id: "ev-invicta",
+      title: "INVICTA 2026",
       type: "Case Study Competition",
-      scope: "National Level Flagship Event",
-      date: "Feb 10 - Feb 28, 2026",
-      registrationLink: "#",
+      scope: "National Level Flagship",
+      date: "March - April 2026",
+      registrationLink: "https://unstop.com/competitions/invicta-2026-shaheed-sukhdev-college-of-business-studies-sscbs-du-delhi-1642243",
       prizePool: "₹1,50,000",
-      description: "Invicta is the flagship annual case study competition of Grandeur. It brings together the brightest minds from top-tier institutions across India (IITs, IIMs, DU, BITS, etc.) to solve complex, real-world corporate challenges. Hosted offline at SSCBS, the event provides participants the chance to pitch to consulting executives and win handsome cash prizes.",
+      description: "Invicta is one of the most anticipated case competitions in the Delhi University circuit, hosted annually by Grandeur at SSCBS. The competition operates in both online and offline capacity across pan-India, presenting a corporate conundrum in the form of a case study and urging trailblazing solutions.",
+      highlights: "Flagship national case competition with 1200+ registrations across India.",
       rounds: [
         {
-          name: "Round 1: Preliminary Strategy Quiz",
-          date: "Feb 10, 2026",
-          description: "An online test assessing logical reasoning, business news, macroeconomic concepts, and case study basics. 20-minute timed quiz."
+          name: "Round 1: General Assessment Round",
+          date: "Apr 20, 6:00 PM to 11:59 PM IST",
+          description: "Online quiz on Unstop evaluating logical reasoning, market metrics, business history, and macroeconomic principles."
         },
         {
-          name: "Round 2: Case Submission",
-          date: "Feb 18, 2026",
-          description: "Shortlisted teams receive a comprehensive corporate case regarding a market expansion dilemma. Teams submit a 5-slider solution deck."
+          name: "Round 2: Case Submission Round",
+          date: "Apr 23, 10:00 AM to 3:00 PM IST",
+          description: "Online submission of a 5-slider solution deck solving a real-world business case study."
         },
         {
           name: "Round 3: Grand Finale Presentation",
-          date: "Feb 28, 2026",
-          description: "Top 8 teams present their detailed strategies live in the SSCBS Auditorium to an elite jury comprising management consultants from MBB and Big 4 firms."
+          date: "Late April, 2026",
+          description: "In-campus presentations to an expert panel of judges comprising consultants and industry executives in the SSCBS Auditorium."
         }
       ],
       pastWinners: [
-        { position: "Winner", team: "Team Vanguard", college: "IIM Ahmedabad" },
-        { position: "First Runner Up", team: "The Strategists", college: "Shaheed Sukhdev College of Business Studies" },
-        { position: "Second Runner Up", team: "Synergy Consulting", college: "SRCC" }
+        { position: "Winner", team: "Team Alpha", college: "IIM Bangalore" },
+        { position: "1st Runner Up", team: "Cognizant Minds", college: "SRCC" },
+        { position: "2nd Runner Up", team: "Strategists", college: "SSCBS" }
       ]
     },
     {
-      id: "event-echelon-2026",
-      title: "Echelon 2026",
+      id: "ev-echelon",
+      title: "Echelon: The Simulation Challenge",
       type: "Simulation Challenge",
-      scope: "Intra & Inter-College Event",
-      date: "September 15, 2026",
-      registrationLink: "#",
+      scope: "Intra & Inter-College",
+      date: "April 2026",
+      registrationLink: "https://unstop.com/competitions/echelon-the-simulation-challenge-shaheed-sukhdev-college-of-business-studies-sscbs-du-delhi-1670580",
       prizePool: "₹50,000",
-      description: "Echelon is a high-octane corporate simulation challenge. Participants step into the shoes of CXOs navigating economic downturns, competitor hostile takeovers, and technological disruptions. Using a dynamic decision-making engine, the teams must balance profitability, market share, and investor relations under strict time constraints.",
+      description: "Grandeur's strategy and simulation competition hosted at SSCBS, University of Delhi. Test your business acumen through quizzes and offline simulation rounds where decisions directly impact corporate market performance and valuation.",
+      highlights: "High-octane CXO simulator challenge testing strategy, bidding, and crisis management.",
       rounds: [
         {
-          name: "Round 1: Resource Allocation bidding",
-          date: "Sep 15, morning",
-          description: "A fast-paced auction where teams bid for manufacturing units, R&D projects, and marketing rights."
+          name: "Round 1: Strategy Screening Quiz",
+          date: "April 2026",
+          description: "Assessment of logical guesstimation, economic trends, and market scenario questions."
         },
         {
-          name: "Round 2: Live Crisis Management Simulator",
-          date: "Sep 15, afternoon",
-          description: "Teams react to random market shocks (e.g., supply chain disruption, inflation spike, tax hikes) in a live digital simulation dashboard."
+          name: "Round 2: Live Bidding & Simulation",
+          date: "April 2026",
+          description: "Live bidding for resources and managing a mock company during consecutive corporate quarters under market shocks."
         }
       ],
       pastWinners: [
-        { position: "Winner", team: "Alpha Capital", college: "St. Stephen's College" },
-        { position: "Runner Up", team: "Apex Strategists", college: "SSCBS" }
+        { position: "Winner", team: "Apex Bidders", college: "St. Stephen's College" },
+        { position: "Runner Up", team: "Capital Crew", college: "SSCBS" }
       ]
     },
     {
-      id: "event-bootcamp-2026",
-      title: "Case Interview & Guesstimate Bootcamp",
-      type: "Workshop Series",
-      scope: "Skill Development Initiative",
-      date: "August 20 - August 22, 2026",
+      id: "ev-ranneeti",
+      title: "Ranneeti",
+      type: "Intra-College Case Arena",
+      scope: "SSCBS Freshers Only",
+      date: "September 2025",
       registrationLink: "#",
-      prizePool: "N/A (Certificate of Completion)",
-      description: "A comprehensive 3-day masterclass designed for students preparing for consulting recruitment cycles. Conducted by incoming consultants and working professionals from McKinsey, BCG, and Bain, the bootcamp covers structured case-solving methods, interview etiquette, and interactive guesstimate drills.",
+      prizePool: "₹20,000",
+      description: "Introductory case competition for SSCBS freshers, bringing in over 300+ participants. This event serves as an entry point for students, introducing them to case frameworks, slide structuring, and public speaking.",
+      highlights: "Intra-College case event for first-year students with exclusive mentorship sessions.",
       rounds: [
         {
-          name: "Day 1: Demystifying the Case Interview",
-          date: "Aug 20, 2026",
-          description: "Introduction to profit/loss structures, market entry frameworks, and MECE principles."
+          name: "Round 1: Frameworks Workshop",
+          date: "Sep 2025",
+          description: "Mentors train students on standard profit/loss, market entry, and cost-benefit frameworks."
         },
         {
-          name: "Day 2: Mastering Guesstimates & Sizing",
-          date: "Aug 21, 2026",
-          description: "Frameworks for market-sizing, population filters, and supply vs. demand estimation."
-        },
-        {
-          name: "Day 3: Live Mock Interview & Q&A",
-          date: "Aug 22, 2026",
-          description: "Live mock consulting interview on stage with immediate feedback, followed by an interactive panel discussion on career paths."
+          name: "Round 2: Case Solution Pitching",
+          date: "Sep 2025",
+          description: "Students pitch a 3-slider solution deck to senior advisors and receive feedback on deck design."
         }
       ],
       pastWinners: []
     }
+  ],
+
+  achievements: [
+    { title: "Winner - BrAINWARS 2024", desc: "Grandeur members won the BrAINWARS case competition, representing the cell at the national stage." },
+    { title: "Global Heats Qualifier - Global Microfinance Case Competition", desc: "Qualified for global heats at the University of Melbourne, only Indian team in top 12 globally." },
+    { title: "National Finalists - AESTIMATUS 9.0 Finals", desc: "National finalists at IIM Kashipur's flagship competition, out of 2200+ teams." },
+    { title: "Winner & 2nd Runner Up - Mantravat", desc: "Winner and 2nd Runner Up at IIM Udaipur's management fest." },
+    { title: "Winner - Jack of All Trades", desc: "Winner at IIT Bombay's prestigious inter-college case event." }
   ],
 
   team: {
@@ -310,7 +315,7 @@ const GrandeurData = {
         role: "Teacher-in-Charge",
         department: "Department of Management Studies",
         college: "SSCBS",
-        description: "An academician with over 15 years of teaching experience in corporate finance, business valuations, and strategic management. She acts as the guiding force behind the society's research orientation.",
+        description: "Associate Professor at SSCBS with extensive expertise in corporate finance, valuations, and management.",
         image: "assets/faculty_sushmita.jpg"
       },
       {
@@ -318,87 +323,107 @@ const GrandeurData = {
         role: "Faculty Advisor",
         department: "Department of Management Studies",
         college: "SSCBS",
-        description: "Specializes in business analytics, operations research, and organizational behavior. He mentors the students in structuring live corporate projects and expanding professional outreach.",
+        description: "Assistant Professor at SSCBS specializing in operations research, organizational design, and strategy.",
         image: "assets/faculty_tushar.jpg"
       }
     ],
     core: [
       {
-        name: "Aarav Mehta",
+        name: "Sambhav Jain",
         role: "President",
-        image: "assets/team_aarav.jpg",
-        linkedin: "#",
-        placement: "Placed at McKinsey & Company",
-        quote: "Grandeur is more than a society; it's an incubator for strategic thinking. Our goal is to equip members with a structured problem-solving toolkit that serves them for a lifetime."
+        placement: "Incoming Analyst at Bain & Company | Winner BrAINWARS 2024",
+        linkedin: "https://www.linkedin.com/in/sambhavjain157/"
       },
       {
-        name: "Sneha Sharma",
+        name: "Maanika Bhardwaj",
         role: "Vice President",
-        image: "assets/team_sneha.jpg",
-        linkedin: "#",
-        placement: "Placed at Boston Consulting Group (BCG)",
-        quote: "Managing corporate live projects and running flagship events like Invicta gives us unmatched execution experience. It bridges our classrooms directly to boardroom realities."
+        placement: "Pursuing Actuarial Science (cleared multiple papers) | SSCBS '26",
+        linkedin: "https://www.linkedin.com/in/maanika-bhardwaj-b6051028a/"
       },
       {
-        name: "Ishaan Verma",
-        role: "Head of Consulting & Projects",
-        image: "assets/team_ishaan.jpg",
-        linkedin: "#",
-        placement: "Placed at Bain & Company",
-        quote: "We approach each corporate project with analytical rigor, combining intensive field research with financial modeling to deliver actionable strategies for our clients."
+        name: "Parth Khattar",
+        role: "Head of Projects",
+        placement: "Placed at Grant Thornton | CEO's Office at NDTV Gadgets 360",
+        linkedin: "https://www.linkedin.com/in/parth-khattar-795a65376/"
       },
       {
-        name: "Diya Kapoor",
-        role: "Head of Research & Publications",
-        image: "assets/team_diya.jpg",
-        linkedin: "#",
-        placement: "Placed at EY-Parthenon",
-        quote: "Curating sector reports and drafting the annual Casebook allows us to document the shifting paradigms in technology, finance, and consumer behavior."
+        name: "Somya Gupta",
+        role: "Head of Research",
+        placement: "SSCBS Student | Consulting & Research Enthusiast",
+        linkedin: "https://www.linkedin.com/in/somya-gupta-4026ba295/"
       },
       {
-        name: "Aditya Sen",
-        role: "Head of Corporate Relations",
-        image: "assets/team_aditya.jpg",
-        linkedin: "#",
-        placement: "Placed at PwC India",
-        quote: "We act as the primary interface between Grandeur and the corporate ecosystem, pitching for consultancy gigs and onboarding executive sponsors."
+        name: "Vanshika Kumari",
+        role: "Corporate Relations Head",
+        placement: "SSCBS Student Coordinator",
+        linkedin: "https://www.linkedin.com/in/vanshika-kumari-ab601832b/"
       },
       {
-        name: "Riya Malhotra",
-        role: "Head of Public Relations & Marketing",
-        image: "assets/team_riya.jpg",
-        linkedin: "#",
-        placement: "Placed at Deloitte USI",
-        quote: "Bringing Grandeur's ideas to life visually and expanding our digital footprint across India ensures our work reaches students and corporate leaders alike."
+        name: "Vishisht Vibhuti",
+        role: "Marketing Coordinator",
+        placement: "SSCBS Student Coordinator",
+        linkedin: "https://www.linkedin.com/in/vishisht-vibhuti-596a12376/"
+      },
+      {
+        name: "Yana Soni",
+        role: "Consulting Coordinator",
+        placement: "SSCBS Student Coordinator",
+        linkedin: "https://www.linkedin.com/in/yana-soni-681296289/"
       }
     ],
     advisory: [
       {
-        name: "Kartik Malhotra",
+        name: "Ananya Jain",
         role: "Senior Advisory Member",
-        image: "assets/team_kartik.jpg",
-        linkedin: "#",
-        placement: "Alumnus • Now Consultant at Bain & Company",
-        quote: "Mentoring the junior cohort is a rich tradition at Grandeur. The rigor we maintain prepares members to hit the ground running in high-pressure consulting roles."
+        placement: "Alumna • Former Consulting Placement Coordinator",
+        linkedin: "https://www.linkedin.com/in/ananya-jain-5263a0323/"
       },
       {
-        name: "Ananya Singhal",
+        name: "Manya",
         role: "Senior Advisory Member",
-        image: "assets/team_ananya.jpg",
-        linkedin: "#",
-        placement: "Alumna • Now Associate at McKinsey & Company",
-        quote: "Solving cases, structuring logic, and learning under peer guidance at Grandeur was the absolute bedrock of my placement preparation and early career success."
+        placement: "Alumna • Former Research Head",
+        linkedin: "https://www.linkedin.com/in/manya-694185371/"
+      },
+      {
+        name: "Somya Jain",
+        role: "Advisory Council",
+        placement: "SSCBS Coordinator",
+        linkedin: "https://www.linkedin.com/in/somya-jain-4266682a5/"
+      },
+      {
+        name: "Nitya Nishtha",
+        role: "Advisory Council",
+        placement: "SSCBS Coordinator",
+        linkedin: "https://www.linkedin.com/in/nitya-nistha-711b53277/"
       }
     ],
-    alumniPlacements: [
-      { firm: "McKinsey & Company", count: 28, logo: "mckinsey" },
-      { firm: "Boston Consulting Group (BCG)", count: 22, logo: "bcg" },
-      { firm: "Bain & Company", count: 18, logo: "bain" },
-      { firm: "EY Parthenon / EY", count: 35, logo: "ey" },
-      { firm: "PwC India / Strategy&", count: 24, logo: "pwc" },
-      { firm: "Deloitte India / USI", count: 41, logo: "deloitte" },
-      { firm: "KPMG India", count: 19, logo: "kpmg" },
-      { firm: "Investment Banks & Boutique Firms", count: 32, logo: "ib" }
+    members: [
+      {
+        name: "Ayushi Garg",
+        role: "Operations Head",
+        placement: "SSCBS Student",
+        linkedin: "https://www.linkedin.com/in/ayushi-garg-a6111028b/"
+      },
+      {
+        name: "Harshit Chandnani",
+        role: "Publicity Head",
+        placement: "SSCBS Student",
+        linkedin: "https://www.linkedin.com/in/harshit-chandnani-354289378/"
+      },
+      {
+        name: "Jiya Bishnoi",
+        role: "Research Member",
+        placement: "SSCBS Student",
+        linkedin: "https://www.linkedin.com/in/jiya-bishnoi/"
+      }
+    ],
+    placements: [
+      { firm: "Bain & Company", logo: "bain" },
+      { firm: "Boston Consulting Group (BCG)", logo: "bcg" },
+      { firm: "Grant Thornton", logo: "gt" },
+      { firm: "D.E. Shaw", logo: "deshaw" },
+      { firm: "IIM Calcutta", logo: "iimc" },
+      { firm: "McKinsey & Company", logo: "mckinsey" }
     ]
   }
 };
