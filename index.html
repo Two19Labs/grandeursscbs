@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of Grandeur, the premier Consulting and Knowledge Cell of Shaheed Sukhdev College of Business Studies (SSCBS), Delhi University.">
+  <title>Grandeur | Consulting & Knowledge Cell, SSCBS DU</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+  <!-- Header / Navigation -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#home" class="logo">
+        <span class="logo-gold">G</span>RANDEUR
+        <span class="logo-sub">SSCBS DU</span>
+      </a>
+      
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects">Consulting Projects</a></li>
+          <li><a href="#publications" class="nav-link" data-section="publications">Publications</a></li>
+          <li><a href="#events" class="nav-link" data-section="events">Events</a></li>
+          <li><a href="#team" class="nav-link" data-section="team">Team & Placements</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-sm btn-gold-outline" onclick="navigateToSection('contact')">Work With Us</a>
+        <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer">
+    <div class="drawer-header">
+      <a href="#home" class="logo">
+        <span class="logo-gold">G</span>RANDEUR
+      </a>
+      <button class="drawer-close" aria-label="Close Menu">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="#home" class="drawer-link active" data-section="home">Home</a></li>
+      <li><a href="#projects" class="drawer-link" data-section="projects">Consulting Projects</a></li>
+      <li><a href="#publications" class="drawer-link" data-section="publications">Publications</a></li>
+      <li><a href="#events" class="drawer-link" data-section="events">Events</a></li>
+      <li><a href="#team" class="drawer-link" data-section="team">Team & Placements</a></li>
+      <li><a href="#contact" class="drawer-link" data-section="contact">Contact</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <a href="#contact" class="btn btn-gold btn-block" onclick="navigateToSection('contact')">Get In Touch</a>
+    </div>
+  </div>
+
+  <!-- Main Content Areas -->
+  <main id="app-content">
+    
+    <!-- SECTION: HOME -->
+    <section id="home-view" class="view-section active">
+      <!-- Hero Section -->
+      <div class="hero-container">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+          <div class="tag-pill">
+            <i data-lucide="award" class="icon-sm"></i> The Premier Consulting Cell of Delhi University
+          </div>
+          <h1 class="hero-title">
+            Fostering Strategy. <br>
+            <span class="text-gradient">Cultivating Knowledge.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Welcome to Grandeur, the Consulting and Knowledge Cell of Shaheed Sukhdev College of Business Studies. We bridge business theories and boardroom realities through rigorous research, live projects, and strategy masterclasses.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-gold" onclick="navigateToSection('projects')">
+              Our Projects <i data-lucide="arrow-up-right" class="icon-sm"></i>
+            </a>
+            <a href="#publications" class="btn btn-slate" onclick="navigateToSection('publications')">
+              Read Publications <i data-lucide="book-open" class="icon-sm"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-card-container">
+          <div class="hero-decorative-card">
+            <div class="card-header">
+              <span class="card-dot"></span>
+              <span class="card-title-text">GRANDEUR CORE VALUE</span>
+            </div>
+            <div class="card-body">
+              <h3>"We Rise By Lifting Others"</h3>
+              <p>Aligned with the college motto, we develop future leaders who excel in structured thinking and deliver meaningful community and business impact.</p>
+              <div class="card-meta">
+                <span class="tag">SSCBS DU</span>
+                <span class="tag">Consulting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="stats-outer-container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h2 class="stat-number" data-target="15">0</h2>
+            <p class="stat-label">Years of Excellence</p>
+          </div>
+          <div class="stat-card">
+            <h2 class="stat-number" data-target="80">0</h2>
+            <p class="stat-label">Live Projects Completed</p>
+          </div>
+          <div class="stat-card">
+            <h2 class="stat-number" data-target="5000">0</h2>
+            <p class="stat-label">Invicta Competitors</p>
+          </div>
+          <div class="stat-card">
+            <h2 class="stat-number" data-target="100">0</h2>
+            <p class="stat-label">Alumni in MBB & Big 4</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- About & Mission Section -->
+      <div class="section-container about-section">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-title-sm">ABOUT GRANDEUR</h2>
+            <h3 class="display-subtitle">Bridging Academics & Industry Realities</h3>
+            <p class="body-text">
+              Founded at Shaheed Sukhdev College of Business Studies (SSCBS), Delhi University, Grandeur is a faculty-guided, student-driven body dedicated to mastering strategic consulting, operational design, financial evaluation, and sector research.
+            </p>
+            <p class="body-text">
+              We empower our consultants to work directly with business founders and executive boards to provide data-driven insights. At the same time, we serve the student community by organizing workshops, publishing casebooks, and hosting case competitions.
+            </p>
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon"><i data-lucide="check-circle2"></i></div>
+                <div>
+                  <h4>High-impact Consulting</h4>
+                  <p>Paid and pro-bono growth consulting for startups and enterprises.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i data-lucide="check-circle2"></i></div>
+                <div>
+                  <h4>Knowledge Creation</h4>
+                  <p>In-depth industry primers, casebooks, and sector newsletters.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-visual">
+            <div class="visual-badge">
+              <div class="badge-icon"><i data-lucide="compass"></i></div>
+              <h3>Explore. Analyze. Deliver.</h3>
+            </div>
+            <div class="quotes-slider">
+              <div class="quote-slide">
+                <p class="quote-text">"Grandeur has consistently nurtured analytical minds that lead consulting recruitments. The cell’s emphasis on real-world projects prepares students exceptionally well."</p>
+                <div class="quote-author">
+                  <div class="author-info">
+                    <h4>Dr. Sushmita</h4>
+                    <p>Teacher-in-Charge, SSCBS DU</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Core Pillars -->
+      <div class="section-container pillars-section">
+        <div class="section-header-centered">
+          <h2 class="section-title-sm">WHAT WE DO</h2>
+          <h3 class="display-subtitle">Our Three Core Pillars</h3>
+        </div>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon"><i data-lucide="briefcase"></i></div>
+            <h3>Live Consulting Projects</h3>
+            <p>Our members consult for businesses across sectors, formulating business plans, optimizing supply chains, and executing Go-To-Market strategies.</p>
+            <a href="#projects" class="pillar-link" onclick="navigateToSection('projects')">View Case Studies <i data-lucide="arrow-right"></i></a>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon"><i data-lucide="book-marked"></i></div>
+            <h3>Knowledge Publications</h3>
+            <p>We compile sector reports, guesstimate primers, and the flagship SSCBS Casebook, helping hundreds of students clear their consulting interviews.</p>
+            <a href="#publications" class="pillar-link" onclick="navigateToSection('publications')">Access Knowledge Hub <i data-lucide="arrow-right"></i></a>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon"><i data-lucide="users"></i></div>
+            <h3>Events & Hackathons</h3>
+            <p>We organize Invicta (National Case Competition), Echelon (CXO Simulation), and workshops that bring corporate mentors together with ambitious students.</p>
+            <a href="#events" class="pillar-link" onclick="navigateToSection('events')">Check Timelines <i data-lucide="arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PROJECTS -->
+    <section id="projects-view" class="view-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title-sm">CONSULTING CASE STUDIES</h2>
+            <h3 class="display-subtitle">Our Live Industry Projects</h3>
+          </div>
+          <p class="section-intro">
+            We deliver actionable strategies. Browse through select consulting assignments executed by Grandeur consultants for startups, brands, and agencies.
+          </p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filter-controls-container">
+          <div class="filter-group" id="project-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="Strategy">Growth & Strategy</button>
+            <button class="filter-btn" data-filter="Finance">Finance & Valuation</button>
+            <button class="filter-btn" data-filter="Operations">Operations & Supply Chain</button>
+            <button class="filter-btn" data-filter="Marketing">Marketing & D2C</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-list">
+          <!-- Dynamically populated by JS -->
+        </div>
+
+        <!-- Corporate Banner -->
+        <div class="corporate-banner">
+          <div class="banner-content">
+            <h3>Are you a startup or corporate looking for strategic consulting?</h3>
+            <p>Partner with Grandeur to receive data-driven research, financial models, GTM roadmaps, and competitive intelligence curated by some of DU's brightest business students.</p>
+          </div>
+          <div class="banner-cta">
+            <a href="#contact" class="btn btn-gold" onclick="navigateToSection('contact')">Hire Grandeur Consultants</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PUBLICATIONS -->
+    <section id="publications-view" class="view-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title-sm">RESEARCH & PUBLICATIONS</h2>
+            <h3 class="display-subtitle">Knowledge Sharing Hub</h3>
+          </div>
+          <p class="section-intro">
+            We track market shifts. Explore our industry primers, newsletters, and the flagship SSCBS Casebook, designed to help students prepare for strategy and consulting roles.
+          </p>
+        </div>
+
+        <!-- Search & Category Filters -->
+        <div class="search-filter-row">
+          <div class="search-box-wrapper">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="publication-search" placeholder="Search by title, tag, or industry...">
+          </div>
+          <div class="filter-group" id="publication-filters">
+            <button class="filter-btn active" data-filter="all">All Publications</button>
+            <button class="filter-btn" data-filter="casebooks">Casebooks</button>
+            <button class="filter-btn" data-filter="sector-reports">Sector Reports</button>
+            <button class="filter-btn" data-filter="newsletters">Newsletters</button>
+          </div>
+        </div>
+
+        <!-- Publications Grid -->
+        <div class="publications-grid" id="publications-list">
+          <!-- Dynamically populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: EVENTS -->
+    <section id="events-view" class="view-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title-sm">FLAGSHIP INITIATIVES</h2>
+            <h3 class="display-subtitle">National Competitions & Masterclasses</h3>
+          </div>
+          <p class="section-intro">
+            We build platforms for execution. From pan-India case competitions to immersive strategy simulations, Grandeur hosts premium business events year-round.
+          </p>
+        </div>
+
+        <!-- Events List -->
+        <div class="events-container" id="events-list">
+          <!-- Dynamically populated by JS -->
+        </div>
+
+        <!-- Interactive Event Showcase Modal (in-page wrapper for structure) -->
+        <div class="upcoming-cta-box">
+          <div class="cta-badge">INVICTA 2026</div>
+          <div class="cta-body">
+            <h3>Prepare for Delhi University's biggest Case Study Arena</h3>
+            <p>Registration window opens in January 2026. Follow us on LinkedIn and Instagram to get instant notifications and access preparation guides.</p>
+            <div class="cta-links">
+              <a href="https://linkedin.com" target="_blank" class="btn btn-sm btn-gold-outline"><i data-lucide="linkedin"></i> LinkedIn</a>
+              <a href="https://instagram.com" target="_blank" class="btn btn-sm btn-gold-outline"><i data-lucide="instagram"></i> Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: TEAM -->
+    <section id="team-view" class="view-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title-sm">MEMBERS & ALUMNI</h2>
+            <h3 class="display-subtitle">Meet Our Strategists</h3>
+          </div>
+          <p class="section-intro">
+            Grandeur's roster comprises students who excel in analytical thinking, corporate strategy, and academic research, guided by experienced faculty and senior alumni.
+          </p>
+        </div>
+
+        <!-- Faculty Section -->
+        <div class="team-block">
+          <h3 class="block-title">Faculty Advisory Board</h3>
+          <div class="faculty-grid" id="faculty-list">
+            <!-- Dynamically populated by JS -->
+          </div>
+        </div>
+
+        <!-- Core Team Section -->
+        <div class="team-block">
+          <h3 class="block-title">Executive Committee (2025 - 2026)</h3>
+          <div class="core-grid" id="core-list">
+            <!-- Dynamically populated by JS -->
+          </div>
+        </div>
+
+        <!-- Advisory Section -->
+        <div class="team-block">
+          <h3 class="block-title">Advisory Council</h3>
+          <div class="advisory-grid" id="advisory-list">
+            <!-- Dynamically populated by JS -->
+          </div>
+        </div>
+
+        <!-- Placements Section -->
+        <div class="team-block placements-block">
+          <div class="section-header-centered">
+            <h2 class="section-title-sm">ALUMNI SUCCESS</h2>
+            <h3 class="display-subtitle">Where Grandeur Leads</h3>
+            <p class="body-text-center">Our members have historically secured placements and internships at some of the world's most prestigious consulting firms, financial institutions, and business houses.</p>
+          </div>
+          
+          <div class="placements-grid" id="placements-list">
+            <!-- Dynamically populated by JS -->
+          </div>
+        </div>
+
+        <!-- Student Recruitment Box -->
+        <div class="recruitment-banner">
+          <div class="recruitment-content">
+            <h3>Are you an SSCBS student looking to master strategy?</h3>
+            <p>Recruitment for the next junior cohort begins in August during orientation. The process involves a logical reasoning screening, a group discussion (Guesstimate round), and a final case interview.</p>
+          </div>
+          <div class="recruitment-cta">
+            <a href="#contact" class="btn btn-gold" onclick="navigateToSection('contact'); selectRecruitmentSubject();">Get Recruitment Alerts</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CONTACT -->
+    <section id="contact-view" class="view-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title-sm">GET IN TOUCH</h2>
+            <h3 class="display-subtitle">Start a Conversation</h3>
+          </div>
+          <p class="section-intro">
+            Have questions about our consulting services, publications, flagship events, or recruitment? Drop a line and our core representatives will get back to you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Details Column -->
+          <div class="contact-details">
+            <div class="contact-info-card">
+              <h3>Office Address</h3>
+              <div class="info-row">
+                <i data-lucide="map-pin"></i>
+                <p>Shaheed Sukhdev College of Business Studies (SSCBS), PSP Area IV, Dr. K.N. Katju Marg, Sector 16, Rohini, New Delhi, Delhi 110089</p>
+              </div>
+              
+              <h3>Email & Communications</h3>
+              <div class="info-row">
+                <i data-lucide="mail"></i>
+                <p><a href="mailto:grandeur@sscbsdu.ac.in">grandeur@sscbsdu.ac.in</a></p>
+              </div>
+
+              <h3>Digital Ecosystem</h3>
+              <div class="social-links-grid">
+                <a href="https://linkedin.com" target="_blank" class="social-icon-btn"><i data-lucide="linkedin"></i></a>
+                <a href="https://instagram.com" target="_blank" class="social-icon-btn"><i data-lucide="instagram"></i></a>
+                <a href="mailto:grandeur@sscbsdu.ac.in" class="social-icon-btn"><i data-lucide="mail"></i></a>
+              </div>
+            </div>
+
+            <!-- Stylized Static SVG Map placeholder -->
+            <div class="stylized-map-container">
+              <svg viewBox="0 0 400 200" class="stylized-map">
+                <defs>
+                  <radialGradient id="map-glow" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="rgba(212, 175, 55, 0.25)" />
+                    <stop offset="100%" stop-color="rgba(15, 23, 42, 0)" />
+                  </radialGradient>
+                </defs>
+                <rect width="400" height="200" rx="12" fill="#1E293B"/>
+                <!-- grid paths -->
+                <path d="M 0,40 L 400,40 M 0,80 L 400,80 M 0,120 L 400,120 M 0,160 L 400,160 M 80,0 L 80,200 M 160,0 L 160,200 M 240,0 L 240,200 M 320,0 L 320,200" stroke="#334155" stroke-width="0.5" stroke-dasharray="2 2"/>
+                <!-- roads -->
+                <path d="M 40,0 Q 80,80 180,90 T 360,200" fill="none" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+                <path d="M 0,140 Q 150,140 200,90 T 400,60" fill="none" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+                <!-- location pin -->
+                <circle cx="190" cy="95" r="25" fill="url(#map-glow)" />
+                <circle cx="190" cy="95" r="6" fill="#D4AF37" />
+                <circle cx="190" cy="95" r="10" stroke="#D4AF37" stroke-width="1.5" fill="none" class="ping-circle" />
+                <text x="210" y="98" fill="#F8FAFC" font-family="'Outfit', sans-serif" font-size="12" font-weight="600">SSCBS Campus, Rohini</text>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Send a Message</h3>
+            <form id="contact-form">
+              <div class="form-group-row">
+                <div class="input-wrapper">
+                  <label for="form-name">Full Name *</label>
+                  <input type="text" id="form-name" required placeholder="Aarav Sharma">
+                </div>
+                <div class="input-wrapper">
+                  <label for="form-email">Email Address *</label>
+                  <input type="email" id="form-email" required placeholder="name@domain.com">
+                </div>
+              </div>
+              
+              <div class="input-wrapper">
+                <label for="form-subject">Purpose of Inquiry *</label>
+                <select id="form-subject" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option value="corporate">Hire Us for a Consulting Project</option>
+                  <option value="events">Invicta Case Competition Query</option>
+                  <option value="recruitment">Student Recruitment Alerts</option>
+                  <option value="research">Access Sector Publications</option>
+                  <option value="general">General Inquiries</option>
+                </select>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="form-message">Details *</label>
+                <textarea id="form-message" required rows="5" placeholder="Outline your requirements, questions, or ideas..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gold btn-block">
+                Send Message <i data-lucide="send" class="icon-sm"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+          <div class="section-header-centered">
+            <h2 class="section-title-sm">FAQ</h2>
+            <h3 class="display-subtitle">Frequently Asked Questions</h3>
+          </div>
+          
+          <div class="faq-container">
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>How can businesses collaborate with Grandeur on Live Projects?</span>
+                <i data-lucide="chevron-down" class="faq-icon"></i>
+              </button>
+              <div class="faq-content">
+                <p>Corporations and startups can reach out via our contact form specifying 'Hire Us for a Consulting Project'. We facilitate dedicated cohorts of 3-5 student analysts mentored by senior advisory board members and guided by faculty advisors to work on pricing models, competitor mapping, market entries, and operations audits over 6-10 week periods.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>Who is eligible to participate in the Invicta Case Competition?</span>
+                <i data-lucide="chevron-down" class="faq-icon"></i>
+              </button>
+              <div class="faq-content">
+                <p>Invicta is open to undergraduate and postgraduate students from recognized colleges across India. Teams typically comprise 1-3 members. Inter-college and inter-specialization teams are allowed. Registration takes place via portals like Unstop and direct links listed on our Events page.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>How are student members selected to join Grandeur?</span>
+                <i data-lucide="chevron-down" class="faq-icon"></i>
+              </button>
+              <div class="faq-content">
+                <p>Recruitment takes place annually in August/September for the first-year student cohort of SSCBS. Candidates undergo a multi-stage process testing logical reasoning, communication, guesstimation capabilities, structural thinking, and strategic analysis through group dialogues and mock consulting interviews.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>Are Grandeur's publications and casebooks free to access?</span>
+                <i data-lucide="chevron-down" class="faq-icon"></i>
+              </button>
+              <div class="faq-content">
+                <p>Yes, all research studies, sector primers, and placement casebooks compiled by Grandeur are published voluntarily and are free to read or download to benefit the wider student community preparing for management consulting careers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-gold">G</span>RANDEUR
+        </a>
+        <p>The Consulting and Knowledge Cell of Shaheed Sukhdev College of Business Studies, Delhi University.</p>
+        <p class="college-motto">College Motto: "We rise by lifting others"</p>
+      </div>
+      
+      <div class="footer-links-column">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#home" onclick="navigateToSection('home')">Home</a></li>
+          <li><a href="#projects" onclick="navigateToSection('projects')">Live Projects</a></li>
+          <li><a href="#publications" onclick="navigateToSection('publications')">Publications</a></li>
+          <li><a href="#events" onclick="navigateToSection('events')">Events</a></li>
+          <li><a href="#team" onclick="navigateToSection('team')">Team & Alumni</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-column">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+          <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="mailto:grandeur@sscbsdu.ac.in">grandeur@sscbsdu.ac.in</a></li>
+          <li><a href="#contact" onclick="navigateToSection('contact')">Office Location</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Grandeur SSCBS. Designed for excellence. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL: PROJECT DETAIL -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close Modal">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="modal-body-content" id="project-modal-content">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: PUBLICATION DETAIL -->
+  <div class="modal-overlay" id="publication-modal">
+    <div class="modal-card modal-card-md">
+      <button class="modal-close" aria-label="Close Modal">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="modal-body-content" id="publication-modal-content">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: FORM SUCCESS -->
+  <div class="modal-overlay" id="success-modal">
+    <div class="modal-card modal-card-sm text-center">
+      <button class="modal-close" aria-label="Close Modal">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="success-illustration">
+        <div class="success-icon-ring">
+          <i data-lucide="check" class="icon-lg text-gold"></i>
+        </div>
+      </div>
+      <h3 class="modal-success-title">Message Received</h3>
+      <p class="modal-success-desc">Thank you for reaching out to Grandeur. Our core committee representatives will review your inquiry and connect with you shortly.</p>
+      <button class="btn btn-gold btn-block modal-close-btn">Dismiss</button>
+    </div>
+  </div>
+
+  <!-- Javascript Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
